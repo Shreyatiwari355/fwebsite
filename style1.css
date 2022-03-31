@@ -31,6 +31,10 @@ margin: 3px 5px;
     position: relative;
     font-family: 'Baloo Bhai 2',cursive;
     flex-wrap: wrap;
+    margin-left: 106px;
+    align-items: center;
+    margin-top: 14px;
+
 
 }
 #navbar::before{
