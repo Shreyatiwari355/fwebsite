@@ -1,7 +1,18 @@
 /* Navigation */
 #navbar {
-    flex-direction: column;
+    
     width:100%;
+}
+#navbar ul{
+    display: none;
+    width: 50%;
+    flex-direction: column;
+}
+#navbar ul.show{
+    display: flex;
+}
+.hamburger{
+    display: block;
 }
 
 #navbar ul li a{
@@ -9,6 +20,7 @@
     padding: 0px 7px;
     padding-bottom: 8px;
 }
+
 /* Home section */
 #home{
     height: 370px; 
@@ -20,7 +32,7 @@
 }
 
 #home p{
-    font-size: 13px;
+    font-size: 20px;
 }
 
 /* Services section  */
@@ -56,10 +68,10 @@
 
 /* Utility classes */
 .h-primary{
-    font-size:26px;
+    font-size:40px;
     margin:40px;
 }
 .btn{
-    font-size: 13px;
+    font-size: 20px;
     padding: 4px 8px;
 }

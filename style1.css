@@ -28,6 +28,7 @@ margin: 3px 5px;
 #navbar ul{
     display: flex;
     font-family: 'Baloo Bhai 2',cursive;
+    flex-wrap: wrap;
 }
 #navbar::before{
   content: "";
@@ -44,6 +45,7 @@ opacity: 0.4;
    
     list-style: none;
     font-size: 1.3 em;
+
 }
 #navbar ul li a{
     color: white;
@@ -55,6 +57,15 @@ opacity: 0.4;
 #navbar ul li a:hover{
     color:black;
    background-color: white;
+}
+.hamburger{
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+    
+    
 }
 #home{
     display: flex;
